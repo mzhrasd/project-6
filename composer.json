@@ -1,0 +1,19 @@
+{
+    "name": "azhar-uinsu/php-mvc",
+    "description": "Praktikum PHP MVC Pemrograman Berbasis Web Lanjutan",
+    "type": "project",
+    "authors": [
+        {
+            "name": "azhar-uinsu",
+            "email": "azhar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "filp/whoops": "^2.14"
+    }
+}
